@@ -52,11 +52,12 @@ public class SmartPhone {
 	}
 
 	public void printAddr(Addr addr) {
-		System.out.println("이름 :" + addr.getName());
-		System.out.println("전화번호 :" + addr.getPhoneNumber());
-		System.out.println("이메일 :" + addr.getEMail());
-		System.out.println("주소 :" + addr.getAddress());
-		System.out.println("그룹(친구/가족) :" + addr.getGroup());
+	//	System.out.println("이름 :" + addr.getName());
+	//	System.out.println("전화번호 :" + addr.getPhoneNumber());
+	//	System.out.println("이메일 :" + addr.getEMail());
+	//	System.out.println("주소 :" + addr.getAddress());
+	//	System.out.println("그룹(친구/가족) :" + addr.getGroup());
+		addr.printInfo(addr);
 		System.out.println("==================================");
 	}
 
